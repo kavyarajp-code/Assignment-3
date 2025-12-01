@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-20T16:45:47 IST" name="Suite" finished-at="2025-11-20T16:47:04 IST" duration-ms="77415">
+    <groups>
+    </groups>
+    <test started-at="2025-11-20T16:45:47 IST" name="Test1" finished-at="2025-11-20T16:45:57 IST" duration-ms="10177">
+      <class name="orangehrm.tc1">
+        <test-method signature="f()[pri:0, instance:orangehrm.tc1@4466af20]" started-at="2025-11-20T16:45:47 IST" name="f" finished-at="2025-11-20T16:45:57 IST" duration-ms="10145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- orangehrm.tc1 -->
+    </test> <!-- Test1 -->
+    <test started-at="2025-11-20T16:45:57 IST" name="Test2" finished-at="2025-11-20T16:46:11 IST" duration-ms="13670">
+      <class name="orangehrm.tc2">
+        <test-method signature="f()[pri:0, instance:orangehrm.tc2@1623b78d]" started-at="2025-11-20T16:45:57 IST" name="f" finished-at="2025-11-20T16:46:11 IST" duration-ms="13668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- orangehrm.tc2 -->
+    </test> <!-- Test2 -->
+    <test started-at="2025-11-20T16:46:11 IST" name="Test3" finished-at="2025-11-20T16:46:38 IST" duration-ms="27219">
+      <class name="orangehrm.tc3">
+        <test-method signature="f()[pri:0, instance:orangehrm.tc3@4550bb58]" started-at="2025-11-20T16:46:11 IST" name="f" finished-at="2025-11-20T16:46:38 IST" duration-ms="27209" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"orangehrm-left-space"}
+  (Session info: MicrosoftEdge=142.0.3595.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0535391baa264e350655cf8e0ed53f1f, findElement {value=orangehrm-left-space, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.90, fedcm:accounts: true, goog:processID: 15920, ms:edgeOptions: {debuggerAddress: localhost:62736}, msedge: {msedgedriverVersion: 142.0.3595.90 (dbd633f4fff1..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62736/devtoo..., se:cdpVersion: 142.0.3595.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0535391baa264e350655cf8e0ed53f1f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"orangehrm-left-space"}
+  (Session info: MicrosoftEdge=142.0.3595.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0535391baa264e350655cf8e0ed53f1f, findElement {value=orangehrm-left-space, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.90, fedcm:accounts: true, goog:processID: 15920, ms:edgeOptions: {debuggerAddress: localhost:62736}, msedge: {msedgedriverVersion: 142.0.3595.90 (dbd633f4fff1..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62736/devtoo..., se:cdpVersion: 142.0.3595.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0535391baa264e350655cf8e0ed53f1f
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at orangehrm.tc3.f(tc3.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- orangehrm.tc3 -->
+    </test> <!-- Test3 -->
+    <test started-at="2025-11-20T16:46:38 IST" name="Test4" finished-at="2025-11-20T16:46:52 IST" duration-ms="13592">
+      <class name="orangehrm.tc4">
+        <test-method signature="f()[pri:0, instance:orangehrm.tc4@9597028]" started-at="2025-11-20T16:46:38 IST" name="f" finished-at="2025-11-20T16:46:52 IST" duration-ms="13589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- orangehrm.tc4 -->
+    </test> <!-- Test4 -->
+    <test started-at="2025-11-20T16:46:52 IST" name="Test5" finished-at="2025-11-20T16:47:04 IST" duration-ms="12693">
+      <class name="orangehrm.tc5">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:orangehrm.tc5@59662a0b]" started-at="2025-11-20T16:45:47 IST" name="beforeSuite" finished-at="2025-11-20T16:45:47 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="f()[pri:0, instance:orangehrm.tc5@59662a0b]" started-at="2025-11-20T16:46:52 IST" name="f" finished-at="2025-11-20T16:47:04 IST" duration-ms="12690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:orangehrm.tc5@59662a0b]" started-at="2025-11-20T16:47:05 IST" name="afterSuite" finished-at="2025-11-20T16:47:05 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- orangehrm.tc5 -->
+    </test> <!-- Test5 -->
+  </suite> <!-- Suite -->
+</testng-results>
